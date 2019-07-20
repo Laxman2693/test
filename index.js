@@ -5,7 +5,7 @@ const { buildSchema } = require('graphql');
 
 const app = express();
 
-app.use(bodyParser.json()); // commentsdfdd
+app.use(bodyParser.json());
 
 app.use(
   '/graphql',
